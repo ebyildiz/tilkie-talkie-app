@@ -232,6 +232,7 @@ const CategoryRow = ({ category }) => {
 export default function HomeScreen() {
   const navigation = useNavigation();
   return (
+    <View style={styles.container}>
     <ScreenLayout>
       <FlatList
         data={categories}
@@ -263,10 +264,15 @@ export default function HomeScreen() {
         }
       />
     </ScreenLayout>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white', // Change this to your desired color
+  },
   categorySection: {
     marginBottom: 30,
   },

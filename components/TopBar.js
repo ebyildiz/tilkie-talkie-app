@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     paddingHorizontal: 24,
     paddingVertical: 8,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffbf00',
     alignItems: 'center',
     borderBottomWidth: 1,
-    borderColor: '#eee',
+    borderColor: '#ffbf00',
   },
   icon: {
     fontSize: 24,
